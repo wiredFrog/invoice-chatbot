@@ -1,6 +1,6 @@
 An e-commerce analytics organization aims to extract and utilize data from user purchase bills (provided in image format) for various analytical purposes.
 
-Used langgraph react agent as the main chat agent (conversation_agent). 
+Used **langgraph react agent** as the main chat agent (conversation_agent). 
 
 How it works:
 1. The user interacts with the agent by typing messages.
@@ -14,16 +14,17 @@ How it works:
 6. The agent then responds to the user based on the outcome of the tool usage or its internal reasoning.
 
 
-Model used: meta-llama/llama-4-scout-17b-16e-instruct 
+**Model used**: meta-llama/llama-4-scout-17b-16e-instruct 
 
-A Sample Conversation:                                                                                                      
-User: Hi
+A Sample Conversation:   
 
-Agent: Hello! I'm here to help you with your purchase invoices and bills. How can I assist you today? Do you have an invoice you'd like me to heth?
+**User**: Hi
 
-User: invoice_url = https://www.image_url.com (User upload the image to the system and we get the URL like this, for simplicity its     default right now/hardcoded)
+**Agent**: Hello! I'm here to help you with your purchase invoices and bills. How can I assist you today? Do you have an invoice you'd like me to heth?
 
-System: The invoice details have been extracted successfully. Here's a summary:
+**User**: invoice_url = https://www.image_url.com (User upload the image to the system and we get the URL like this, for simplicity its     default right now/hardcoded)
+
+**Agent**: The invoice details have been extracted successfully. Here's a summary:
 * Invoice Number: IN-761
 * Invoice Date: 28th October 2019
 * Store Name: Varasiddhi Silk Exports
@@ -38,13 +39,13 @@ System: The invoice details have been extracted successfully. Here's a summary:
 
 Would you like to know anything specific about this invoice or would you like to save/export the data?
 
-User: What was the total bill amount? 
+**User**: What was the total bill amount? 
 
-Agent: The total bill amount is ₹565.00 (Item Total Price) + ₹13.45 (Tax / GST / VAT Amount) = ₹578.45.
+**Agent**: The total bill amount is ₹565.00 (Item Total Price) + ₹13.45 (Tax / GST / VAT Amount) = ₹578.45.
 
-User: Tell me about the items.
+**User**: Tell me about the items.
 
-Agent: * Item Name/Description: Varasiddhi Silks Men's Formal Shirt (SH-05-42, Navy Blue,42) B07KGF3KW8 ( SH-05--42 )
+**Agent**: * Item Name/Description: Varasiddhi Silks Men's Formal Shirt (SH-05-42, Navy Blue,42) B07KGF3KW8 ( SH-05--42 )
 * Quantity: 1
 * Unit Price: 538.10
 * Item Total Price: 565.00
@@ -52,11 +53,11 @@ Agent: * Item Name/Description: Varasiddhi Silks Men's Formal Shirt (SH-05-42, N
 
 Let me know if you'd like to know more about the invoice or perform any other actions!
 
-User: I want to export the data. 
+**User**: I want to export the data. 
 
-Agent: The invoice data has been successfully exported as a JSON file.Let me know if you need any further assistance!
+**Agent**: The invoice data has been successfully exported as a JSON file.Let me know if you need any further assistance!
 
-Suggested Improvements: 
+**Suggested Improvements**: 
 * History Management: Right now the whole history is getting passed to the agent as context, if the conversation grows this can increase cost as well as cost efficiency of the model. To tackle this we can use some techniques for managing history like summarzation or sliding window summarization etc.
 * Handling Multipage Invoices: We can use the llm in loop to dynamically extract the required fields.
 * Prompting: Better prompting technique to handle user nuisance. 
