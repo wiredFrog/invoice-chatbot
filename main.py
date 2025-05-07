@@ -13,6 +13,7 @@ from prompt import invoice_extractor_prompt,conversation_agent_prompt
 from langgraph.checkpoint.memory import MemorySaver
 import json 
 
+# groq cloud api is set in env
 load_dotenv()
 
 DEFAULT_URL = "https://www.image_url.com"
