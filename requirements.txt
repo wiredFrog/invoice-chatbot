@@ -1,0 +1,4 @@
+langgraph==0.4.1
+langchain-core==0.3.58
+dotenv
+langchain-groq==0.3.2

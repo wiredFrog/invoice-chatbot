@@ -1,0 +1,15 @@
+{
+    "Invoice/Bill Number": "unique reference number",
+    "Invoice Date / Bill Date": "date of issue",
+    "Store / Vendor Name": "name of the store or merchant",
+    "Store Address": "address, location",
+    "Phone / Contact Details": "store phone, email",
+    "Customer Name": "if mentioned",
+    "Customer Address": "billing/shipping address",
+    "Payment Method": "cash, card, UPI, etc.",
+    "Item Name / Description": "product or service name",
+    "Quantity": "number of units, weight, or volume",
+    "Unit Price": "price per item or unit",
+    "Item Total Price": "quantity × unit price",
+    "Tax / GST / VAT Amount": "total tax applied"
+  }
