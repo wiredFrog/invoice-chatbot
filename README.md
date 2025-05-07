@@ -17,10 +17,12 @@ How it works:
 Model used: meta-llama/llama-4-scout-17b-16e-instruct 
 
 A Sample Conversation:                                                                                                      
-User: Hi \n
+User: Hi
+
 Agent: Hello! I'm here to help you with your purchase invoices and bills. How can I assist you today? Do you have an invoice you'd like me to heth?
 
 User: invoice_url = https://www.image_url.com (User upload the image to the system and we get the URL like this, for simplicity its     default right now/hardcoded)
+
 System: The invoice details have been extracted successfully. Here's a summary:
 * Invoice Number: IN-761
 * Invoice Date: 28th October 2019
@@ -37,9 +39,11 @@ System: The invoice details have been extracted successfully. Here's a summary:
 Would you like to know anything specific about this invoice or would you like to save/export the data?
 
 User: What was the total bill amount? 
+
 Agent: The total bill amount is ₹565.00 (Item Total Price) + ₹13.45 (Tax / GST / VAT Amount) = ₹578.45.
 
 User: Tell me about the items.
+
 Agent: * Item Name/Description: Varasiddhi Silks Men's Formal Shirt (SH-05-42, Navy Blue,42) B07KGF3KW8 ( SH-05--42 )
 * Quantity: 1
 * Unit Price: 538.10
@@ -49,6 +53,7 @@ Agent: * Item Name/Description: Varasiddhi Silks Men's Formal Shirt (SH-05-42, N
 Let me know if you'd like to know more about the invoice or perform any other actions!
 
 User: I want to export the data. 
+
 Agent: The invoice data has been successfully exported as a JSON file.Let me know if you need any further assistance!
 
 Suggested Improvements: 
