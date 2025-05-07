@@ -50,3 +50,8 @@ Let me know if you'd like to know more about the invoice or perform any other ac
 
 User: I want to export the data. 
 Agent: The invoice data has been successfully exported as a JSON file.Let me know if you need any further assistance!
+
+Suggested Improvements: 
+* History Management: Right now the whole history is getting passed to the agent as context, if the conversation grows this can increase cost as well as cost efficiency of the model. To tackle this we can use some techniques for managing history like summarzation or sliding window summarization etc.
+* Handling Multipage Invoices: We can use the llm in loop to dynamically extract the required fields.
+* Prompting: Better prompting technique to handle user nuisance. 
