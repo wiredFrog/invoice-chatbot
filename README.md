@@ -16,8 +16,8 @@ How it works:
 
 Model used: meta-llama/llama-4-scout-17b-16e-instruct 
 
-A Sample Conversation: 
-User: Hi 
+A Sample Conversation:                                                                                                      
+User: Hi \n
 Agent: Hello! I'm here to help you with your purchase invoices and bills. How can I assist you today? Do you have an invoice you'd like me to heth?
 
 User: invoice_url = https://www.image_url.com (User upload the image to the system and we get the URL like this, for simplicity its     default right now/hardcoded)
