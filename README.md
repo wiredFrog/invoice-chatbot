@@ -1,6 +1,6 @@
 An e-commerce analytics organization aims to extract and utilize data from user purchase bills (provided in image format) for various analytical purposes.
 
-Used **langgraph react agent** as the main chat agent (conversation_agent). 
+Used **Langgraph React Agent** as the main chat agent (conversation_agent). 
 
 How it works:
 1. The user interacts with the agent by typing messages.
