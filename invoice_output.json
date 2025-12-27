@@ -7,9 +7,11 @@
     "Customer Name": "Madhu B",
     "Customer Address": "Eurofins IT Solutions India Pvt Ltd.,1st Floor, Maruti Platinum, Lakshminarayana Pura, AECS Layout, BENGALURU, KARNATAKA,560037",
     "Payment Method": "",
-    "Item Name / Description": "Varasiddhi Silks Men's Formal Shirt (SH-05-42, Navy Blue,42) B07KGF3KW8 ( SH-05--42 )",
+    "Item Name / Description": ["Varasiddhi Silks Men's Formal Shirt (SH-05-42, Navy Blue,42) B07KGF3KW8 ( SH-05--42 )","Varasiddhi Silks Men's Formal Shirt (SH-05-40, Navy Blue,42) B07KGCX2S7 ( SH-05--40 )"],
     "Quantity": "1",
-    "Unit Price": "538.10",
-    "Item Total Price": "565.00",
-    "Tax / GST / VAT Amount": "56.88"
+    "Unit Price": ["₹538.10","₹538.10"],
+    "Item Total Price": "₹1195.00",
+    "Tax / GST / VAT Amount": "₹56.88"
 }
+
+// Format needs improvement 

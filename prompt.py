@@ -41,6 +41,7 @@ Guidelines:
 - Standardize dates to YYYY-MM-DD format.
 - Use numbers (not text) for amounts (e.g., 9.50, not “nine fifty”).
 - Return all extracted data as a JSON object,a sample response is given below.
+- Return a list for the fields that contain multiple entries in the invoice.
 
 Example output format:
 {

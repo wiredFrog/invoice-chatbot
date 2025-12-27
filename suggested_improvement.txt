@@ -1,0 +1,5 @@
+Suggested Improvements:
+1. History Management: Right now the whole history is getting passed to the agent as context, if the conversation grows this can increase cost as well as cost efficiency of the model. To tackle this we can use some techniques for managing history like summarzation or sliding window summarization etc.
+2. Handling Multipage Invoices: We can use the llm in loop to dynamically extract the required fields.
+3. Prompting: Better prompting technique to increase invoice extraction format/accuracy and handling user nuicance.
+4. Invoice Extraction Format: Right now only one json is extracted with a list for multiple items but this needs improvement.More complex json structure is needed, simple structure right now wont work.
